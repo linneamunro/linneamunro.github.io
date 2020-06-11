@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: $white;
   }
 }
 
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $lavender;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $white;
   }
 }
 
@@ -117,7 +117,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $white;
 }
 
 // Specify the color of the selection
@@ -155,7 +155,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 30px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
