@@ -9,7 +9,7 @@ name: Linnea Munro
 description: Summer 2020 DREU Project
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://Linneamunro.github.io/images/IMG_0363 (3).JPG
+avatar: https://Linneamunro.github.io/IMG_2386 (1).jpg
 
 #
 # Flags below are optional
@@ -19,13 +19,13 @@ avatar: https://Linneamunro.github.io/images/IMG_0363 (3).JPG
 footer-links:
   dribbble:
   email: linnea.munro@mail.mcgill.ca
-  facebook:
+  linkedin: https://www.linkedin.com/in/linneamunro/
   flickr:
   rss: # just type anything here for a working RSS icon
 
 # Your website URL (e.g. http://ajstent.github.io)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: linneamunro.me
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
