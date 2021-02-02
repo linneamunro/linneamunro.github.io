@@ -18,9 +18,9 @@ html {
 }
 
 body {
-  background: #D7EDF8;
+  background: #EAEAEA;
   font: 18px/1.4 $helvetica;
-  color: LightSlateGray;
+  color: #153E52;
 }
 
 .container {
@@ -32,12 +32,12 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: LightSlateGray;
+  background-color: #153E52;
 }
 
 .topnav a {
   float: right;
-  color: #D7EDF8;
+  color: #EAEAEA;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -46,17 +46,17 @@ body {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: LightSlateGray;
+  color: #153E52;
 }
 
 .topnav a.active {
   background-color: #F0F8FF;
-  color: LightSlateGray;
+  color: #153E52;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $white;
+  color: LightSlateGray;
   font-weight: bold;
 
   line-height: 1.7;
