@@ -16,10 +16,13 @@ avatar: https://Linneamunro.github.io/images/IMG_2386 (1).jpg
 #
 
 # Includes an icon in the footer for each username you enter
-footer-links::
-  email: linnea.munro@mail.mcgill.ca
+footer-links:
+  dribbble:	
+  email: linnea.munro@mail.mcgill.ca	
+  facebook: linneamunro
   linkedin: linneamunro
-  rss: 
+  flickr:
+  rss: # just type anything here for a working RSS icon
 
 # Your website URL (e.g. http://ajstent.github.io)
 # Used for Sitemap.xml and your RSS feed
