@@ -36,7 +36,8 @@ body {
 }
 
 .topnav a {
-  color: #ddd;
+  float: right
+  color: #F0F8FF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -45,12 +46,12 @@ body {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: LightSteelBlue;
+  color: LightSlateGray;
 }
 
 .topnav a.active {
-  background-color: #F1F4F9;
-  color: white;
+  background-color: #F0F8FF;
+  color: LightSlateGray;
 }
 
 h1, h2, h3, h4, h5, h6 {
