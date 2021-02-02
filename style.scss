@@ -18,9 +18,9 @@ html {
 }
 
 body {
-  background: LightSteelBlue;
+  background: #D7EDF8;
   font: 18px/1.4 $helvetica;
-  color: $white;
+  color: LightSlateGray;
 }
 
 .container {
@@ -37,7 +37,7 @@ body {
 
 .topnav a {
   float: right;
-  color: #F0F8FF;
+  color: #D7EDF8;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
