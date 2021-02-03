@@ -38,21 +38,7 @@ header {
   width: 100%;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #153E52;
-  padding: 17px;
-  text-align: center;
-}
 
-.topnav a {
-  float: right;
-  color: #EAEAEA;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
 .topnav a:hover {
   background-color: #ddd;
@@ -237,8 +223,7 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  text-align: center;
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -250,11 +235,12 @@ nav {
   }
 
   a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
+  float: right;
+  color: #EAEAEA;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
 
     @include mobile {
       margin: 0 10px;
