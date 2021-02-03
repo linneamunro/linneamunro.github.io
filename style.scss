@@ -39,13 +39,27 @@ header {
 }
 
 
+.topnav {
+  background-color: #153E52;
+  padding: 15px ;
+  text-align: ;
+}
+
+.topnav a { 
+  color: #EAEAEA;
+  text-align: right;
+  padding: 10px 17px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
 .topnav a:hover {
+  padding: 15px;
   background-color: #ddd;
   color: #153E52;
 }
 
-.topnav a.active {
+.topnav a:active {
   background-color: #F0F8FF;
   color: #153E52;
 }
@@ -222,32 +236,7 @@ img {
   }
 }
 
-nav {
-  text-align: center;
-  font-family: $helveticaNeue;
-  font-size: 18px;
 
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-  float: right;
-  color: #EAEAEA;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-size: 17px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
-  }
-}
 
 //
 // .main
